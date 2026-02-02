@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             // Redirect to chat
-            window.location.href = '/chat.html';
+            window.location.href = 'chat.html';
         }
     });
 });
