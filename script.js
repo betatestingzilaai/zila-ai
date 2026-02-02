@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Open login modal
     loginBtn.addEventListener('click', function() {
         if (authManager.isLoggedIn()) {
-            window.location.href = '/chat.html';
+            window.location.href = 'chat.html';
         } else {
             isLoginMode = true;
             updateModalMode();
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Continue button
     continueBtn.addEventListener('click', function() {
         if (authManager.isLoggedIn()) {
-            window.location.href = '/chat.html';
+            window.location.href = 'chat.html';
         } else {
             isLoginMode = true;
             updateModalMode();
