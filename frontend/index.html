@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon_atoms.ico" type="image/x-icon">
+    <title>ZILA-AI — AI-Powered Web3 Intelligence</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="https://mgx-backend-cdn.metadl.com/generate/images/918632/2026-02-02/57b54aba-d4bb-4523-b1c0-3b6c9970adc8.png" alt="ZILA-AI Logo" class="logo-img">
+                <span class="logo-text">ZILA-AI</span>
+            </div>
+            <nav class="nav">
+                <button class="nav-btn" id="loginBtn">Login</button>
+                <button class="nav-btn primary" id="signupBtn">Sign Up</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="hero-section">
+            <h1 class="hero-title">ZILA-AI</h1>
+            <p class="hero-description">
+                ZILA-AI is an AI-powered Web3 intelligence platform that combines artificial
+                intelligence, blockchain technology, and decentralized innovation.
+                It allows users to ask questions, explore knowledge, and interact with AI
+                in a simple, secure, and intelligent way.
+            </p>
+            <button class="continue-btn" id="continueBtn">Continue</button>
+        </div>
+    </main>
+
+    <!-- Auth Modal -->
+    <div class="modal" id="authModal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <h2 class="modal-title" id="modalTitle">Login</h2>
+            <form class="auth-form" id="authForm">
+                <input type="email" class="auth-input" id="email" placeholder="Email" required>
+                <input type="password" class="auth-input" id="password" placeholder="Password" required>
+                <button type="submit" class="auth-submit">Continue</button>
+            </form>
+            <p class="auth-toggle">
+                <span id="toggleText">Don't have an account?</span>
+                <a href="#" id="toggleAuth">Sign Up</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="./auth.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
